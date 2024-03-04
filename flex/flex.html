@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <title>Flex box</title>
+    <style>
+        *, *::after, *::before{
+            padding: 0; margin: 0;
+            box-sizing: border-box;
+            /* list-style-type: none; */
+        }
+        .parent{
+            display: flex;
+            height: 100vh;
+            /* flex-direction: row; */
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+        }
+        .child{
+            /* margin: 1rem;     */
+            background-color: rgb(160, 202, 160);
+            width: 200px;
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            /* display: inline-block; */
+        }
+        /* .child-2{
+            margin: 0 1rem;
+        } */
+        /* .child:nth-child(odd){
+            margin: 0 1rem;
+        } */
+
+    </style>
+</head>
+<body>
+    <section class="parent">
+        <!-- sect*3[class=name]{hello$}>div -->
+        <section class="child">1</section>
+        <section class="child child-2">2</section>
+        <section class="child">3</section>
+        <i class="fi fi-rr-envelope"></i>
+    </section>
+    <section>
+        <video>
+            <source src="">
+        </video>
+    </section>
+</body>
+</html>
